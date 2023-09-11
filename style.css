@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ababab;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #ccc; /* Add a right border to separate list items */
+}
+
+li:last-child {
+    border-right: none; /* Remove the right border from the last list item */
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #4f4e4e;
+}
